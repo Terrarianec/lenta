@@ -2,8 +2,8 @@ import asyncio
 from modules import messages
 from pyrogram import Client, filters
 
-api_id = 7328736
-api_hash = 'd2794f2700d1dc0141e9f0d3f84d5837'
+api_id = 0
+api_hash = '_'
 client = Client('LentaParsingService', api_id, api_hash)
 client.start()
 
