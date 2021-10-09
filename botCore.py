@@ -61,7 +61,7 @@ async def start(message):
 
 @dispatcher.message_handler(Command('help'))
 async def commands_list(message):
-    await send_message(message.from_user.id, "Комнады:\n"
+    await send_message(message.from_user.id, "Команды:\n"
                                              "/add (имя или URL канала) - добавить канал\n"
                                              "/remove - открыть меню удаления каналов\n"
                                              "/profile - Ваш профиль", reply_markup=None)
